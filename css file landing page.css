@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.logo .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffb400;
+}
+
+.logo .highlight {
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffb400;
+}
+
+.contact-btn {
+    background-color: #ffb400;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #ff9900;
+    transform: scale(1.1);
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #121212;
+    color: white;
+}
+
+.intro-text {
+    max-width: 600px;
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffb400;
+    font-weight: bold;
+}
+
+.intro-text .highlight {
+    color: #ffb400;
+    font-weight: bold;
+}
+
+.intro-text p {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.hire-btn, .experience-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hire-btn {
+    background-color: #ffb400;
+    color: #000000;
+}
+
+.hire-btn:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+}
+
+.experience-btn {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.experience-btn:hover {
+    background-color: #cccccc;
+    transform: scale(1.05);
+}
+
+.intro-image img {
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+}
